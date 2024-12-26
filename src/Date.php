@@ -1,8 +1,8 @@
 <?php
 
-namespace facades\src;
+namespace Mars\Facades;
 
-use facades\src\Abstracts\Facade;
+use Mars\Facades\Abstracts\Facade;
 
 class Date extends Facade
 {
