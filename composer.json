@@ -1,0 +1,36 @@
+{
+  "name": "mars/facades",
+  "description": "The Mars Facades.",
+  "keywords": ["facades", "mars", "marsphp"],
+  "minimum-stability": "stable",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hassane Dao",
+      "email": "hassane.dao@marsphp.com"
+    },
+    {
+      "name": "Houssene Dao",
+      "email": "houssene.dao@marsphp.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Mars\\Facades\\": "src/"
+    }
+  },
+  "require": {
+    "php": "^8.2"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^11.5"
+  },
+  "config": {
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/package-versions-deprecated": true,
+      "php-http/discovery": false
+    }
+  },
+  "prefer-stable": true
+}
